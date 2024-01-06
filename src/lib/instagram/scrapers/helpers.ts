@@ -2,7 +2,7 @@ import { BadRequest, TimeoutException } from "@/lib/exceptions";
 import { getTimedFilename } from "@/utils";
 
 export const getIGVideoFileName = () =>
-  getTimedFilename("ig-downloader", "mp4");
+  getTimedFilename("vivek_masona_instacdn", "mp4");
 
 export const handleScraperError = (error: any) => {
   console.log("Scraper error:", error.message);
